@@ -9,7 +9,7 @@ After rootfs, jailbreak (turn off safe-mode)
 
 Step 2: Install macOS / Linux utils
 
-I#MPORTANT: Make sure to have the latest version of libusbmuxd or it will not work. Version 2.0.1 worked flawlessly.
+# IMPORTANT: Make sure to have the latest version of libusbmuxd or it will not work. Version 2.0.1 worked flawlessly.
 
 macOS users can use brew install libusbmuxd
 
