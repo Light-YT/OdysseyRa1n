@@ -16,7 +16,7 @@ macOS users can use brew install libusbmuxd
 Also, make sure to have curl and iproxy installed. (most machines will have it already)
 
 # Installing Sileo with Chimera1n
-Step 1: Get chimera1n-deploy-linux-macos.sh install script
+Step 1: Get procursus-deploy-linux-macos.sh install script
 
 Step 2: Assuming its in your Downloads folder, run the following commands a terminal:
 
