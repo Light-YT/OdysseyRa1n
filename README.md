@@ -20,4 +20,4 @@ Or else, run su /etc/rc.d/libhooker in a terminal like new term to start libhook
 
 5 enjoy a stable experience and powerful experience with latest apt 2.1.5, libhooker and all package manager working alongside without problems. (Cydia UI got a little ios13 update that you will like. Thanks to kronos.)
 
-NOTE : i heavly recommend to install those 2 package first before trying to install tweaks : rocketbootstrap and preference loader from odyssey repo and bigboss. Else you may have a little (not happy) surprise when you will try to queue 50 tweaks then find out that sileo won't install anything because of (apt fix missing error)
+# NOTE : i heavly recommend to install those 2 package first before trying to install tweaks : rocketbootstrap and preference loader from odyssey repo and bigboss. Else you may have a little (not happy) surprise when you will try to queue 50 tweaks then find out that sileo won't install anything because of (apt fix missing error)
