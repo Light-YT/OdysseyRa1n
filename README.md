@@ -1,57 +1,23 @@
-# Prerequisites
-Step 1: Get a freshly jailbroken device with checkra1n.
+# How to install odysseyra1n on your phone
 
-Rootfs (I used checkra1n). If there is an error, jailbreak with safe mode and roots (aka: Restore System) through the Loader App.
+1 Restore rootfs with checkra1n
 
-After rootfs, jailbreak (turn off safe-mode)
+2 Jailbreak (Don't open the loader !!)
 
-# DO NOT TOUCH THE LOADER APP
+3 connect your iphone through usb and on your mac/linux : insert those following commands
 
-Step 2: Install macOS / Linux utils
+MAC USERS To install homebrew if you don't have it : /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”
 
-# IMPORTANT: Make sure to have the latest version of libusbmuxd or it will not work. Version 2.0.1 worked flawlessly.
+To install iproxy : brew install usbmuxd
 
-macOS users can use brew install libusbmuxd
+LINUX USERS To install iproxy sudo apt install libusbmuxd-tools
 
-Also, make sure to have curl and iproxy installed. (most machines will have it already)
+To launch the script (Both Mac users and Linux Users): /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh)"
 
-# Installing Sileo with Chimera1n
-Step 1: Get procursus-deploy-linux-macos.sh install script
+4 After the script finish it's task, open sileo, do all the updates and install libhooker package. Then reboot (manually, not pressing the reboot button in sileo) and rejailbreak.
 
-Step 2: Assuming its in your Downloads folder, run the following commands a terminal:
+Or else, run su /etc/rc.d/libhooker in a terminal like new term to start libhooker then sbreload
 
-sudo bash ~/Downloads/chimera1n-deploy-linux-macos.sh
+5 enjoy a stable experience and powerful experience with latest apt 2.1.5, libhooker and all package manager working alongside without problems. (Cydia UI got a little ios13 update that you will like. Thanks to kronos.)
 
-Type in your password to run the script.
-
-When it asks for an ssh password / when it says root@127.0.0.1’s password:, type alpine.
-
-You are going to have to do the step above twice.
-
-Once the script terminates, you should see Sileo on your device! 🎉
-
-# Post Installation
-Step 1: Refresh your sources and upgrade all of your packages. 📦
-
-Step 2 (Caution): To get Tweak Injection, install libhooker in the chimera repo.
-
-iPhone X users have reported of bootloops. (beware!)
-
-Step 3 (optional): Install any iOS 13 compatible tweaks to install the tweak dependencies. I just installed Cylinder.
-
-# Troubleshooting
-If tweak injection is not working:
-
-Start libhooker with: /etc/rc.d/libhooker using ssh.
-
-If you are bootlooped: jailbreak with safemode to ssh.
-
-ALTERNATE: Install NewTerm (iOS 13) and run libhooker.
-
-If you get Failed to get task for pid 1! after running libhooker:
-
-# Run libhooker with su:
-
-Type su in NewTerm, enter alpine, then /etc/rc.d/libhooker.
-
-DO NOT install RocketBootstrap from https://rpetri.ch/repo. Use the one from Chimera Repo
+NOTE : i heavly recommend to install those 2 package first before trying to install tweaks : rocketbootstrap and preference loader from odyssey repo and bigboss. Else you may have a little (not happy) surprise when you will try to queue 50 tweaks then find out that sileo won't install anything because of (apt fix missing error)
