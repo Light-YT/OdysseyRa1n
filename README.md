@@ -12,7 +12,7 @@ To install iproxy : brew install usbmuxd
 
 LINUX USERS To install iproxy sudo apt install libusbmuxd-tools
 
-To launch the script (Both Mac users and Linux Users): /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/coolstar/Odyssey-bootstrap/master/procursus-deploy-linux-macos.sh)"
+To launch the script (Both Mac users and Linux Users): /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/LightiDeveloperYT/OdysseyRa1n/master/procursus-deploy-linux-macos.sh)"
 
 4 After the script finish it's task, open sileo, do all the updates and install libhooker package. Then reboot (manually, not pressing the reboot button in sileo) and rejailbreak.
 
