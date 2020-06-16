@@ -34,7 +34,8 @@ else
 	fi
 fi
 rm -rf odyssey-tmp
-mkdir odyssey-tmp
+mkdir odyssey-tmpmkdir odyssey-tmp
+
 cd odyssey-tmp
 
 echo '#!/bin/zsh' > odyssey-device-deploy.sh
